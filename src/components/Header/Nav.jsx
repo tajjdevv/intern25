@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from "/src/assets/image/HeaderImg/Logo.png"
-import HeaderPic from "/src/assets/image/HeaderImg/headerPic2.png"
+// import HeaderPic from "/src/assets/image/HeaderImg/headerPic2.png"
 import bg from "/src/assets/image/HeaderImg/PatternBg.png"
 import design from "/src/assets/image/HeaderImg/design.png"
 import search from "/src/assets/image/HeaderImg/Search.png"
@@ -65,7 +65,7 @@ const Nav = () => {
 
 
             <div className="twoo hidden big:flex">
-                <img src={HeaderPic} className=''  alt="" />
+{/*                 <img src={HeaderPic} className=''  alt="" /> */}
             </div>
         </div>
         </div>
