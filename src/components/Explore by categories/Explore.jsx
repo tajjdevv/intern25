@@ -69,12 +69,12 @@ const Explore = () => {
   return (
     <>
          <div className='explorea w-full  flex gap-12 flex-col justify-center  px-32'>   
-                <div className="exx flex justify-between ">
-                    <p className='expl text-5xl text-start font-semibold'>Explore by <span className="cat text-customlightBlue">category</span> </p>
-                    <a href="#" className='avr flex gap-4 text-customeBlue'>Show all job <img src={arv} className='inv w-6 h-6' alt="" /></a>
+                <div className="exx flex justify-center big:justify-between ">
+                    <p className='expl text-4xl big:text-5xl text-center big:text-start  font-semibold'>Explore by <span className="cat text-customlightBlue">category</span> </p>
+                    <a href="#" className='avr big:flex hidden gap-4 text-customeBlue'>Show all job <img src={arv} className='inv w-6 h-6' alt="" /></a>
                 </div>
                 
-                <div className="contain md:grid-cols-4 lg:grid-cols-3  gap-8 grid grid-cols-2 pap-4">
+                <div className="contain big:grid-cols-3 lg:grid-cols-4  gap-8 grid grid-cols-2 pap-4">
             {
                 each.map((data,index)=>{
                     return <ExploreEach key={index} img={data.image} h3={data.h3} p={data.p} arr={data.img}  />

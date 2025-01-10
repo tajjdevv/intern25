@@ -21,6 +21,7 @@ export default {
       ]},
       width:{
         customWidth:"25rem",
+        customWidth2:"35rem",
         // customSer:"53.25rem",
         customjb:"13.0625rem",
         customew:"22.75rem",
@@ -40,6 +41,10 @@ export default {
         customBorder:"rgba(124, 132, 147, 1)",
         custombord:"rgba(214, 221, 235, 1)"
       },
+      screens:{
+        big:"850px",
+        big2:"650px"
+      }
       
     },
   },
